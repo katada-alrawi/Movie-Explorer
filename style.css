@@ -1,0 +1,163 @@
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-left a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-left h1 {
+  font-size: 24px;
+}
+
+.header-right nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-right nav ul li {
+  margin-right: 20px;
+  position: relative;
+}
+
+.header-right nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Submenu styling */
+.header-right nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.header-right nav ul li:hover > ul {
+  display: block;
+}
+
+.header-right nav ul ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.header-right nav ul ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 0;
+  display: block;
+}
+
+/* Hover effect for links */
+.header-right nav ul li:hover > a {
+  text-decoration: underline;
+}
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Movie Explorer section styling */
+.movie-explorer {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-list-item {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie-title {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* Hover effect for movie items */
+.movie-list-item:hover {
+  background-color: #f5f5f5;
+  transition: background-color 0.3s ease;
+}
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-left p {
+  font-size: 12px; /* Reduced font size */
+  margin: 0; /* Remove margin for the paragraph */
+}
+
+.footer-middle h3,
+.footer-right h3 {
+  font-size: 14px; /* Reduced font size */
+  margin-bottom: 10px;
+}
+
+.footer-middle ul,
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove margin for the lists */
+}
+
+.footer-middle ul li,
+.footer-right ul li {
+  margin-bottom: 3px; /* Reduced margin */
+}
+
+/* Links in the footer */
+.footer-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.footer-container a:hover {
+  text-decoration: underline;
+  
+}
